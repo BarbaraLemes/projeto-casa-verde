@@ -1,10 +1,10 @@
-import Menu from "./components/Menu"
+import Home from "./pages"
 
 function App() {
 
   return (
     <>
-      <Menu />
+      <Home />
     </>
   )
 }

@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+@media(min-width: 920px) {
+    body {
+        background-image: url('/imagens/Vector.png'),
+            url('/imagens/bg.jpg');
+        background-repeat: no-repeat,
+            repeat-x;
+        background-position: right top;
+    }
+}
+
+a,
+button,
+input {
+    transition: .3s ease-in-out;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+a:hover,
+a:focus,
+button:hover,
+button:focus {
+    opacity: .5;
+}
