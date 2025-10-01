@@ -23,6 +23,7 @@
     right: 0;
     z-index: -1;
     pointer-events: none;
+    margin-top: 10em;
 }
 
 .container {
@@ -35,9 +36,10 @@
 }
 
 .newsletter h1 {
+    color: rgba(85, 85, 85, 0.5);
     font-size: 22px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 27px;
     letter-spacing: 0em;
     text-align: left;
@@ -46,6 +48,7 @@
 
 .newsletter h1 strong {
     font-family: Elsie Swash Caps;
+    color: #202020;
     font-size: 50px;
     font-style: normal;
     font-weight: 900;
@@ -62,8 +65,9 @@
 .newsletter p {
     font-family: Montserrat;
     font-size: 16px;
+    color: rgba(85, 85, 85, 0.5);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 26px;
     letter-spacing: 0em;
     text-align: left;

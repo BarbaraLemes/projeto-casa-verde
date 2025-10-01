@@ -1,0 +1,41 @@
+.ofertas {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ofertas h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.ofertas strong {
+    font-family: 'Elsie Swash Caps', sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    color: #202020;
+}
+
+.cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .cardsContainer {
+        grid-template-columns: 1fr;
+    }
+    
+    .ofertas h2 {
+        font-size: 24px;
+    }
+    
+    .ofertas strong {
+        font-size: 32px;
+    }
+}
